@@ -20,7 +20,7 @@ No need to rewrite authentication logic for every Django project—just install,
 Install the package via pip:
 
 ```bash
-pip install /path/to/django_auth_package
+pip install django-auto-authentication==0.1.0
 Add to INSTALLED_APPS in your settings.py:
 
 INSTALLED_APPS = [
@@ -73,4 +73,4 @@ Available URLs:
 ---
 ## Usage
 
-Af---ter installation, your Django project will have fully functional authentication without writing a single line of authentication code. You can customize templates, add CSS, or integrate it with other apps seamlessly.
+After installation, your Django project will have fully functional authentication without writing a single line of authentication code. You can customize templates, add CSS, or integrate it with other apps seamlessly.
