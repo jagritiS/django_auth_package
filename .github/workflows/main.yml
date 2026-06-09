@@ -1,0 +1,12 @@
+name: secret hello 
+on: 
+  push:
+jobs:
+  test-secret:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print secret 
+      env: ${{secrets.hello}}
+
+      run: |
+        echo "there is a secret"
